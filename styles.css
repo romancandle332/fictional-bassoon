@@ -1,0 +1,147 @@
+/*
+Attention: you can customize this style set file, but it will be overwritten whenever you load the league.
+To change the CSS data of the reports, edit the original files /templates/styles_<skin-name>.css or add a <style> section
+to the template /templates/head_bits.tpl. You could also add an additional styles CSS file and link to it in the head_bits.tpl.
+
+The file contains dummy classes. OOTP needs them to identify headers of sortable columns:
+hsn = sort numeric
+hsc = sort character
+hsd
+hsu = sort currency
+hsf
+hsp = sort position
+hsx = sorting ends here
+hsi = ignore this line when sorting
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400);
+
+body			{ font-family:"Open Sans", Calibri, Helvetica, Verdana, Geneva, Arial, sans-serif; font-size:13px; color:#F0F0F0; }
+body.ext_bg		{ background-color:#303030; color:#F0F0F0; }
+
+td			{ font-family:"Open Sans", Calibri, Helvetica, Verdana, Geneva, Arial, sans-serif; font-size:13px; color:#F0F0F0; vertical-align:top; text-align: left; }
+th			{ font-family:"Open Sans", Calibri, Helvetica, Verdana, Geneva, Arial, sans-serif; font-size:13px; color:#F0F0F0; vertical-align:top; text-align: left; }
+
+.linebg   		{ background-color:#00FF00; }
+
+table.stats 		{ background-color:#303030; }
+.statsbg 		{ background-color:#303030; }
+.stats th 		{ background-color:#666666; border-bottom:1px solid #505050; color:#FFFFFF; font-weight:normal; padding:1px 4px 2px 4px; white-space: nowrap;}
+.stats td 		{ border-bottom:1px solid #505050; color:#F0F0F0; padding:1px 4px 2px 4px; white-space: nowrap;}
+
+table.data   		{ background-color:#303030; }
+.databg   		{ background-color:#303030; }
+.data th 		{ background-color:#303030; border-bottom:1px solid #505050; color:#FFFFFF; font-weight:normal; padding:1px 4px 2px 4px; white-space: nowrap;}
+.datath			{ background-color:#303030; border-bottom:1px solid #505050; color:#FFFFFF; font-weight:normal; padding:1px 4px 2px 4px; white-space: nowrap;}
+.datathbg		{ background-color:#303030; }
+.datacolor		{ color:#F0F0F0; }
+.data td 		{ background-color:#303030; border-bottom:1px solid #505050; color:#F0F0F0; padding:1px 4px 2px 4px; white-space: nowrap;}
+td.data_footer 		{ background-color:#303030; border-top:1px solid #505050; color:#FFFFFF; font-weight:normal; padding:1px 4px 2px 4px; white-space: nowrap;}
+
+td.data_capt    	{ color:#F0F0F0; font-weight:bold; padding:1px 4px 2px 4px; white-space: normal;}
+td.wrap			{ white-space: normal; }
+
+th.datath		{ background-color:#303030; border-bottom:1px solid #505050; color:#FFFFFF; font-weight:normal; padding:1px 4px 2px 4px; white-space: nowrap;}
+
+.dl			{ text-align:left; }
+.dr			{ text-align:right; }
+.dc			{ text-align:center; }
+.highlight		{ font-weight:bold; color:#FFFFFF; }
+.bold			{ font-weight:bold; }
+.grey			{ background-color:#222222; }
+td.light		{ color:#DDDDDD; }
+td.footer		{ color:#FFFFFF; font-size:11px; padding-left:4px; }
+td.datac0		{ font-weight:bold; color:#555555; }
+td.datac1		{ font-weight:bold; color:#DD5533; }
+td.datac2		{ font-weight:bold; color:#FA8080; }
+td.datac3		{ font-weight:bold; color:#D6BF00; }
+td.datac4		{ font-weight:bold; color:#117722; }
+td.datac5		{ font-weight:bold; color:#CCCCCC; }
+
+th.hsn			{}
+th.hsc			{}
+th.hsd			{}
+th.hsu			{}
+th.hsf			{}
+th.hsp			{}
+th.hsx			{}
+th.hsi			{}
+sortable		{}
+
+a:link 			{ text-decoration:none; font-weight:normal; color:#C6E0FF; }
+a:visited 		{ text-decoration:none; font-weight:normal; color:#C6E0FF; }
+a:hover 		{ text-decoration:none; font-weight:normal; color:#D8EBFF; }
+a:active 		{ text-decoration:none; font-weight:normal; color:#C6E0FF; }
+a:focus 		{ text-decoration:none; font-weight:normal; color:#C6E0FF; }
+
+a.m:link 		{ text-decoration:none; font-weight:normal; color:#C6E0FF; }
+a.m:visited 		{ text-decoration:none; font-weight:normal; color:#C6E0FF; }
+a.m:hover 		{ text-decoration:underline; font-weight:normal; color:#D8EBFF; }
+a.m:active 		{ text-decoration:none; font-weight:normal; color:#C6E0FF; }
+a.m:focus 		{ text-decoration:none; font-weight:normal; color:#C6E0FF; }
+
+a.a1:link		{ text-decoration:none; font-weight:normal; color:#C6E0FF; }
+a.a1:visited 		{ text-decoration:none; font-weight:normal; color:#C6E0FF; }
+a.a1:hover 		{ text-decoration:underline; font-weight:normal; color:#D8EBFF; }
+a.a1:active 		{ text-decoration:none; font-weight:normal; color:#C6E0FF; }
+a.a1:focus 		{ text-decoration:none; font-weight:normal; color:#C6E0FF; }
+
+a.bold:link 		{ text-decoration:none; font-weight:bold; color:#C6E0FF; }
+a.bold:visited 		{ text-decoration:none; font-weight:bold; color:#C6E0FF; }
+a.bold:hover 		{ text-decoration:underline; font-weight:bold; color:#D8EBFF; }
+a.bold:active 		{ text-decoration:none; font-weight:bold; color:#C6E0FF; }
+a.bold:focus 		{ text-decoration:none; font-weight:bold; color:#C6E0FF; }
+
+.menu 			{ font-weight:normal; color:#F0F0F0; }
+a.menu:link 		{ text-decoration:none; font-weight:bold; color:#C6E0FF; }
+a.menu:visited 		{ text-decoration:none; font-weight:bold; color:#C6E0FF; }
+a.menu:hover 		{ text-decoration:none; font-weight:bold; color:#D8EBFF; }
+a.menu:active 		{ text-decoration:none; font-weight:bold; color:#C6E0FF; }
+a.menu:focus 		{ text-decoration:none; font-weight:bold; color:#C6E0FF; }
+
+a.btmlink:link		{ text-decoration:none; font-size:11px; color:#C6E0FF; }
+a.btmlink:visited	{ text-decoration:none; font-size:11px; color:#C6E0FF; }
+a.btmlink:hover		{ text-decoration:none; font-size:11px; color:#D8EBFF; }
+a.btmlink:active	{ text-decoration:none; font-size:11px; color:#C6E0FF; }
+a.btmlink:focus		{ text-decoration:none; font-size:11px; color:#C6E0FF; }
+
+a.boxlink:link		{ text-decoration:none; font-size:13px; font-weight:bold; color:#C6E0FF; }
+a.boxlink:visited	{ text-decoration:none; font-size:13px; font-weight:bold; color:#C6E0FF; }
+a.boxlink:hover		{ text-decoration:none; font-size:13px; font-weight:bold; color:#D8EBFF; }
+a.boxlink:active	{ text-decoration:none; font-size:13px; font-weight:bold; color:#C6E0FF; }
+a.boxlink:focus		{ text-decoration:none; font-size:13px; font-weight:bold; color:#C6E0FF; }
+
+.boxcurrent   		{ font-weight:normal; color:#FFFFFF; }
+th.boxtitle		{ font-size:18px; font-weight:lighter; padding:3px 4px 2px 4px; color:#FFFFFF; background-color:#303030; }
+td.boxtitle		{ font-size:18px; font-weight:lighter; padding:3px 4px 2px 4px; color:#FFFFFF; background-color:#303030; }
+.boxnotes		{ font-size:11px; color:#FFFFFF; background-color:#303030; }
+.boxtitlecolors		{ color:#FFFFFF; background-color:#303030; }
+.boxsubtitle		{ font-size:13px; font-weight:bold; color:#FFFFFF; background-color:#303030; }
+.reptitle		{ font-size:28px; font-weight:bold; color:#FFFFFF; }
+.repsubtitle		{ font-size:20px; font-weight:bold; color:#FFFFFF; }
+
+ul			{ list-style-image:url(images/dot1.gif); }
+select			{ font-family:"Open Sans", Calibri, Helvetica, Verdana, Geneva, Arial, sans-serif; font-size:13px; font-weight:normal; text-align:left; color:#F0F0F0; background-color:#FFFFFF; }
+
+.sdl_off             	{ background-color:#616161; }
+.sdl_empty             	{ background-color:#616161; }
+.sdl_asg		{ background-color:#303030; }
+.sdl_asg_played		{ background-color:#414141; }
+.sdl_home		{ background-color:#333333; }
+.sdl_away		{ background-color:#020202; }
+.sdl_today		{ background-color:#919191; }
+
+a.sdl_lost:link 	{ text-decoration:none; font-weight:normal; color:#FF0000; }
+a.sdl_lost:visited 	{ text-decoration:none; font-weight:normal; color:#FF0000; }
+a.sdl_lost:hover 	{ text-decoration:none; font-weight:normal; color:#FF6A00; }
+a.sdl_lost:active 	{ text-decoration:none; font-weight:normal; color:#FF0000; }
+a.sdl_lost:focus 	{ text-decoration:none; font-weight:normal; color:#FF0000; }
+
+a.sdl_won:link 		{ text-decoration:none; font-weight:normal; color:#00C000; }
+a.sdl_won:visited 	{ text-decoration:none; font-weight:normal; color:#00C000; }
+a.sdl_won:hover 	{ text-decoration:none; font-weight:normal; color:#5FBF16; }
+a.sdl_won:active 	{ text-decoration:none; font-weight:normal; color:#00C000; }
+a.sdl_won:focus 	{ text-decoration:none; font-weight:normal; color:#00C000; }
+
+.sdl_border_left	{ border-left:1px solid #A0A09E; border-bottom:1px solid #A0A09E; border-right:1px solid #A0A09E; }
+.sdl_border_other	{ border-bottom:1px solid #A0A09E; border-right:1px solid #A0A09E; }
